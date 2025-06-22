@@ -1,0 +1,22 @@
+{
+  "name": "my-website",
+  "version": "1.0.0",
+  "description": "A website for Marlin Commercial Maintenance, providing information about commercial maintenance services.",
+  "main": "src/scripts/main.js",
+  "scripts": {
+    "start": "live-server public",
+    "build": "echo 'Build process not defined yet.'"
+  },
+  "keywords": [
+    "commercial",
+    "maintenance",
+    "services",
+    "website"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
