@@ -1,47 +1,52 @@
-# My Website
+# Simple Elegant Website
 
-## Overview
-This project is a website for Marlin Commercial Maintenance, providing information about the company's commercial maintenance services. It includes a landing page, styles, scripts for interactivity, and a privacy policy.
+This project is a simple and elegant website consisting of multiple pages, including a landing page, about page, privacy policy, and a contact form. The website is designed to be responsive and user-friendly.
 
 ## Project Structure
-```
-my-website
-├── public
-│   └── index.html          # Landing page for the website
-├── src
-│   ├── styles
-│   │   └── main.css       # CSS styles for the website
-│   ├── scripts
-│   │   └── main.js        # JavaScript for interactivity
-│   └── privacy.txt        # Privacy policy information
-├── package.json            # npm configuration file
-└── README.md               # Project documentation
-```
 
-## Setup Instructions
-1. Clone the repository:
-   ```
-   git clone <repository-url>
-   ```
-2. Navigate to the project directory:
-   ```
-   cd my-website
-   ```
-3. Install dependencies:
-   ```
-   npm install
-   ```
-4. Open the `public/index.html` file in a web browser to view the website.
+```
+simple-elegant-website
+├── index.html        # Main landing page
+├── about.html        # About page
+├── privacy.html      # Privacy policy page
+├── contact.html       # Contact form page
+├── css
+│   └── styles.css    # Styles for the website
+├── js
+│   └── main.js       # JavaScript for dynamic interactions
+└── README.md         # Project documentation
+```
 
 ## Features
-- Responsive design for optimal viewing on various devices.
-- Interactive elements powered by JavaScript.
-- Clear presentation of the company's services and privacy policy.
 
-## Usage Guidelines
-- Modify the `src/styles/main.css` file to change the visual presentation.
-- Update the `src/scripts/main.js` file to add or modify interactivity.
-- Edit the `src/privacy.txt` file to update privacy policy information as needed.
+- **Responsive Design**: The website is designed to work on various devices and screen sizes.
+- **Contact Form**: Users can submit inquiries through a contact form with validation.
+- **Privacy Policy**: Clear information on how user data is handled.
+- **About Page**: Information about the website or organization.
+
+## Setup Instructions
+
+1. Clone the repository:
+   ```
+   git clone https://github.com/yourusername/simple-elegant-website.git
+   ```
+
+2. Navigate to the project directory:
+   ```
+   cd simple-elegant-website
+   ```
+
+3. Open `index.html` in your web browser to view the website.
+
+## Deployment
+
+To deploy the website using AWS Amplify:
+
+1. Sign in to the [AWS Management Console](https://aws.amazon.com/console/).
+2. Navigate to AWS Amplify and create a new app.
+3. Connect your GitHub repository.
+4. Follow the prompts to configure the build settings and deploy your website.
 
 ## License
-This project is licensed under the MIT License.
+
+This project is licensed under the MIT License. See the LICENSE file for details.
