@@ -5,7 +5,6 @@ This project is a simple and elegant website consisting of multiple pages, inclu
 ## Project Structure
 
 ```
-simple-elegant-website
 ├── index.html        # Main landing page
 ├── about.html        # About page
 ├── privacy.html      # Privacy policy page
